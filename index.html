@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandero web</title>
+
+    <!-- Importamos los Estilos -->
+    <link rel = "stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- Nuestra Seccion de Encabezado -->
+    <header class="header">
+        <a href="#" class="logo">Pandero <span></span></a>
+
+        <!-- añadimos el navar -->
+        <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="vehiculos.html">Vehiculos</a>
+        <a href="centroayuda.html">Centro de Ayuda</a>
+        </nav>
+
+    <!-- Insertamos Inicio de Sessión -->
+    <div id="login-btn">
+    <button type="button" class="btn">Login</button>
+    <i class="fa-solid fa-user"></i>
+
+</div>
+</header>
+
+<!-- login form -->
+
+<div class="login-form-container">
+    <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+
+    <form action="">
+        <h3>Bienvenido</h3>
+        <input type="email" placeholder ="email" class ="box">
+        <input type="password" placeholder ="password" class ="box">
+        <p> ¿Olvidastes tu contraseña? <a href ="#"> Haz clik Aqui</a></p>
+        <input type="submit"  value="Ingresa Ahora" class="btn">
+        <p> O ingresa mediante: </p>
+        <div class ="buttons">
+
+            <a href="#" class="btn">google</a>
+            <a href="#" class="btn"> facebook</a>
+        </div>
+        <p> Aun no tiene una cuenta? <a href = "#">Create una aquí </a></p>
+    </form>
+</div>
+
+<!-- seccion de la casa -->
+<section class="home" id="home">
+<h1 class="home-parallax" data-speed = "-2">  Elige tu Auto </h1>
+<img class="home-parallax" data-speed="5" src="images/transparente.png" alt="">
+<a class="btn home-parallax" data-speed="7"  href="#">Explora tus Autos</a>
+</section>
+
+<!-- seccion de factura -->
+<Section class= "vehical" id="vehicales">
+    <h1 class="heading"><span>Bienvenidos</span> Tenemos Autos de ultima generacion</h1>
+
+    <div class="slider">
+        <div class="wrapper-box">
+            <div class="wrapper-box">
+                <div class="box active">
+                    <img src="images/TOYOTA.png" style="max-width: 450px; height: auto;" alt="">
+                    <div class="content">
+                        <h3> Nuevo modelo llegado</h3>
+                        <div class ="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">S/.750</div>
+                        <a href="#" class="btn">Alquila Ahora!</a>
+                    </div>
+                </div>
+                    <br>
+                    <div class="box">
+                        <img src="images/AUDI.png" style="max-width: 450px; height: auto;" alt="" >
+                        <div class="content">
+                        <h3> Nuevo modelo llegado</h3>
+                        <div class ="price">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">S/.450</div>
+                        <a href="#" class="btn">Alquila Ahora!</a>
+                        </div>
+                    </div>
+
+                        <div class="box">
+                            <img src="images/CHEVROLET.png" style="max-width: 450px; height: auto;" alt="" />
+                            <h3> Nuevo modelo llegado</h3>
+                            <div class ="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">S/.250</div>
+                            <a href="#" class="btn">Alquila Ahora!</a>
+                            </div>
+
+                            <div class="box">
+                                <img src="images/TOYOTA2.png" style="max-width: 450px; height: auto;" alt="" />
+                                <h3> Nuevo modelo llegado</h3>
+                                <div class ="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="price">S/.350</div>
+                                <a href="#" class="btn">Alquila Ahora!</a>
+                            </div>
+                </div>
+                </div>
+                </div>
+                <div class="fActCircle">
+                    <div class="fa-regular fa-solid fa-circle"></div>
+                    <div class="fa-regular  fa-circle"></div>2024
+                    <div class="fa-regular  fa-circle"></div>Perú
+                    <div class="fa-regular  fa-circle"></div>
+                </div>
+            </div>    
+        </div>    
+    </div>
+
+</Section>
+
+    <!-- Insertamos la libreria de font awesome -->
+    <script src="https://kit.fontawesome.com/8ce43e6684.js" crossorigin="anonymous"></script>
+
+    <!-- Importamos carpeta Javascript -->
+    <script src="./js/script.js"></script>
+
+
+    
+</body>
+</html>
